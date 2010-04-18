@@ -1,7 +1,7 @@
 Summary:	Tools for the iTVC15/16 and CX23415/16 driver
 Name:		ivtv-utils
-Version:	1.4.0
-Release:	%mkrel 2
+Version:	1.4.1
+Release:	%mkrel 1
 License:	GPLv2
 Group:		System/Kernel and hardware
 Source0:	http://dl.ivtvdriver.org/ivtv/archive/1.4.x/%{name}-%{version}.tar.gz
@@ -53,4 +53,3 @@ rm -rf %{buildroot}
 %doc doc/*
 %{_bindir}/*
 %{_datadir}/ivtv
-
