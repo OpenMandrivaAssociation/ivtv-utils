@@ -1,0 +1,11 @@
+--- utils/ivtv-ctl.c	2009-02-06 20:46:10.000000000 +0200
++++ utils/ivtv-ctl.c.new	2010-03-21 19:09:55.471879595 +0200
+@@ -254,7 +254,7 @@
+ 		printf("failed: %s\n", strerror(errno));
+ 		return errno;
+ 	}
+-	fprintf(f, buf);
++	fprintf(f, "%s", buf);
+ 	fclose(f);
+ 	return 0;
+ }
