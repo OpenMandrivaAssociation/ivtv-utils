@@ -6,7 +6,7 @@ License:	GPLv2
 Group:		System/Kernel and hardware
 Source0:	http://dl.ivtvdriver.org/ivtv/archive/1.4.x/%{name}-%{version}.tar.gz
 Patch0:		ivtv-1.4.0-fix-string-format.patch
-URL:		http://ivtvdriver.org/
+URL:		https://ivtvdriver.org/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Suggests:	ivtv-firmware
 Conflicts:	v4l-utils <= 0.7.91-3mdv2010.1
